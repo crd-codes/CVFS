@@ -68,11 +68,9 @@ The following Linux-like operations are implemented using custom functions:
 | unlink()        | UnlinkFile()  |
 | stat()          | StatFile()    |
 
----
 ## Platform Independent
 
-Runs on any operating system using a C compiler (Windows / Linux / Ubuntu).
----
+Runs on any operating system using a C compiler (Windows / Linux / MacOS).
 
 ## 📂 Project Structure
 ```
@@ -83,7 +81,6 @@ CVFS/
 ├── Include/        → Header files (if any)
 └── README.md
 ```
----
 
 ## ⚙️ Compilation & Execution
 
