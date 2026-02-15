@@ -127,7 +127,7 @@ Marvellous CVFS > exit
 
 ## 👨‍💻 Author
 
-**CR Dugade**
+CR Dugade
 Aspiring Software Developer
 
 * GitHub: https://github.com/crd-codes
