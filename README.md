@@ -1,11 +1,11 @@
 # Customised Virtual File System (CVFS)
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 Customised Virtual File System (CVFS) is a system programming project written in C that simulates the core functionality of the Linux File System.
 The project provides a Linux-like environment through a custom shell where users can perform file operations such as create, open, read, write, delete, and list files.
 
-# This project helps in understanding:
+## This project helps in understanding :
 
 * File system architecture
 * System calls
@@ -14,7 +14,7 @@ The project provides a Linux-like environment through a custom shell where users
 
 ---
 
-# 🛠 Technology Used
+## 🛠 Technology Used
 
 Language: C
 
@@ -28,16 +28,19 @@ Concepts:
 
 ---
 
-# ✨ Features
+## ✨ Features
+- Linux-like custom shell for file operations
+- Simulated system calls
+- File permission handling
 
-# Custom Shell Interface
 
-Provides a Linux-like environment to perform file operations.
+## Custom Shell Interface
+
+Provides a Linux-like environment for performing file operations.
 
 ---
 
-# Supported Commands
-
+## Supported Commands
 ```
 create <filename> <permission>   → Create a new file
 open <filename> <mode>           → Open an existing file
@@ -51,9 +54,7 @@ help                             → Display command information
 exit                             → Terminate CVFS
 ```
 
----
-
-# System Call Simulation
+## System Call Simulation
 
 The following Linux-like operations are implemented using custom functions:
 
@@ -68,27 +69,25 @@ The following Linux-like operations are implemented using custom functions:
 | stat()          | StatFile()    |
 
 ---
-
-# Platform Independent
+## Platform Independent
 
 Runs on any operating system using a C compiler (Windows / Linux / Ubuntu).
-
 ---
 
-# 📂 Project Structure
-
+## 📂 Project Structure
 ```
 CVFS/
 │
-├── cvfs.c        → Main source code
+├── Src/
+│   └── cvfs.c      → Main source code
+├── Include/        → Header files (if any)
 └── README.md
 ```
 ---
 
-# ⚙️ Compilation & Execution
+## ⚙️ Compilation & Execution
 
 Linux / Ubuntu
-
 ```
 gcc cvfs.c -o Myexe
 ./Myexe
@@ -101,10 +100,7 @@ gcc cvfs.c -o Myexe.exe
 Myexe.exe
 ```
 
----
-
-# 💻 Example Usage
-
+## 💻 Example Usage
 ```
 Marvellous CVFS > create Demo.txt 3
 File successfully created
@@ -124,17 +120,19 @@ File deleted
 
 Marvellous CVFS > exit
 ```
-
 ---
-
-# 📈 Future Improvements
+## 📈 Future Improvements
 
 * Directory support
 * Persistent storage (save data to disk)
 * Command history
-
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-CR Dugade (crd-codes)
+CR Dugade 
+Aspiring Software Developer
+
+GitHub: https://github.com/crd-codes
+LinkedIn: https://linkedin.com/in/chakradhar-dugade
+Email : crofficialuse@gmail.com 
